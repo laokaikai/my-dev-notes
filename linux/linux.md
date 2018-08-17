@@ -1,0 +1,37 @@
+# linux命令
+
+## curl
+
+* 将数据打印到STDOUT中
+  
+```bash
+curl url
+```
+
+* 下载数据到制定的文件中：
+
+```bash
+curl url -o filename
+```
+
+* 直接下载默认的文件，名称为默认的文件名：
+
+```bash
+curl url -O
+```
+
+## 从Linux下载文件到本地(sz)或从本地上传文件到Linux(rz)
+
+* 安装lrzsz
+
+
+* 下载文件
+
+```bash
+sz filename
+```
+* 上传文件
+
+```bash
+rz filename
+```
